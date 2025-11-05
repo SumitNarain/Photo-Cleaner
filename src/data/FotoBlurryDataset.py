@@ -57,7 +57,7 @@ class FotoBlurryDataset(Dataset):
         return len(self.all_image_paths)
 
     def __getitem__(self, index):
-        # Get individual item path and label; dataset[0]
+        # Get an individual item path and label; dataset[0]
         image_path = self.all_image_paths[index]
         image_label = self.all_labels[index]
 
